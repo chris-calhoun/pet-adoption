@@ -1,5 +1,5 @@
-console.log("TESTING. 123. TESTING");
-
+//console.log("TESTING. 123. TESTING");
+"use strict";
 const pets = [
   {
     image:
