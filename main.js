@@ -58,7 +58,7 @@ const printToDom = (divId, textToPrint) => {
 const buildPetCards = () => {
   let domString = "";
   for (let j = 0; j < pets.length; j++) {
-    domString += `<div class="pet">`;
+    domString += `<div class="pet pet-${pets[j].typeOfPet}">`;
     domString += `  <div class="pet-name"><h2>${pets[j].name}</h2></div>`;
     domString += `  <div class="pet-image"><img src = "${pets[j].image}" alt = "Image of a ${pets[j].typeOfPet}"></div>`;
     domString += `  <div class="pet-color"><h3>${pets[j].color}</h3></div>`;
@@ -72,10 +72,48 @@ const buildPetCards = () => {
 buildPetCards();
 
 const dogButton = document.getElementById("dogButton");
+const catButton = document.getElementById("catButton");
+const dinoButton = document.getElementById("dinoButton");
+
+const getCats = document.getElementsByClassName("pet-cat");
+const getDogs = document.getElementsByClassName("pet-dog");
+const getDinos = document.getElementsByClassName("pet-dino");
+
+dinoButton.addEventListener("click", function (event) {
+  for (let l = 0; l < getCats.length; l++) {
+    getCats[l].style.display = "none";
+  }
+  for (let k = 0; k < getDogs.length; k++) {
+    getDogs[k].style.display = "none";
+  }
+});
 
 dogButton.addEventListener("click", function (event) {
-  for (let i = 0; i < pets.length; j++) {
-    if (pets[i].typeOfPet !== "dog") {
-    }
+  for (let l = 0; l < getCats.length; l++) {
+    getCats[l].style.display = "none";
+  }
+  for (let k = 0; k < getDinos.length; k++) {
+    getDinos[k].style.display = "none";
+  }
+});
+
+catButton.addEventListener("click", function (event) {
+  for (let l = 0; l < getDogs.length; l++) {
+    getDogs[l].style.display = "none";
+  }
+  for (let k = 0; k < getDinos.length; k++) {
+    getDinos[k].style.display = "none";
+  }
+});
+
+allButton.addEventListener("click", function (event) {
+  for (let l = 0; l < getCats.length; l++) {
+    getCats[l].style.display = "block";
+  }
+  for (let f = 0; f < getDinos.length; f++) {
+    getDinos[f].style.display = "block";
+  }
+  for (let k = 0; k < getDogs.length; k++) {
+    getDogs[k].style.display = "block";
   }
 });
