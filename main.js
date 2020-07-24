@@ -49,3 +49,24 @@ const pets = [
     typeOfPet: "dino",
   },
 ];
+
+const printToDom = (divId, textToPrint) => {
+  const selectedDiv = document.getElementById(divId);
+  selectedDiv.innerHTML = textToPrint;
+};
+
+const buildPetCards = () => {
+  let domString = "";
+  for (let j = 0; j < pets.length; j++) {
+    domString += `<div class="pet">`;
+    domString += `  <div class="pet-name"><h2>${pets[j].name}</h2></div>`;
+    domString += `  <div class="pet-image"><img src = "${pets[j].image}" alt = "Image of a ${pets[j].typeOfPet}"></div>`;
+    domString += `  <div class="pet-color"><h3>${pets[j].color}</h3></div>`;
+    domString += `  <div class="pet-skills"><p>This pet's special skill is ${pets[j].specialSkill}</p></div>`;
+    domString += `  <div class="pet-type"><h3>${pets[j].typeOfPet}</h3></div>`;
+    domString += `</div>`;
+  }
+  printToDom("pets", domString);
+};
+
+buildPetCards();
