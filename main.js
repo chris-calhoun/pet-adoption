@@ -70,3 +70,12 @@ const buildPetCards = () => {
 };
 
 buildPetCards();
+
+const dogButton = document.getElementById("dogButton");
+
+dogButton.addEventListener("click", function (event) {
+  for (let i = 0; i < pets.length; j++) {
+    if (pets[i].typeOfPet !== "dog") {
+    }
+  }
+});
