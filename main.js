@@ -86,6 +86,9 @@ dinoButton.addEventListener("click", function (event) {
   for (let k = 0; k < getDogs.length; k++) {
     getDogs[k].style.display = "none";
   }
+  for (let f = 0; f < getDinos.length; f++) {
+    getDinos[f].style.display = "block";
+  }
 });
 
 dogButton.addEventListener("click", function (event) {
@@ -95,6 +98,9 @@ dogButton.addEventListener("click", function (event) {
   for (let k = 0; k < getDinos.length; k++) {
     getDinos[k].style.display = "none";
   }
+  for (let k = 0; k < getDogs.length; k++) {
+    getDogs[k].style.display = "block";
+  }
 });
 
 catButton.addEventListener("click", function (event) {
@@ -103,6 +109,9 @@ catButton.addEventListener("click", function (event) {
   }
   for (let k = 0; k < getDinos.length; k++) {
     getDinos[k].style.display = "none";
+  }
+  for (let l = 0; l < getCats.length; l++) {
+    getCats[l].style.display = "block";
   }
 });
 
