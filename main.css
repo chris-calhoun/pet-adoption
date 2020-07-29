@@ -131,3 +131,15 @@ body {
   position: relative;
   top: 1px;
 }
+
+/***Jumbotron***/
+.jumbotron {
+  background-color: white;
+}
+
+/***Navbar***/
+.navbar {
+  background-color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
