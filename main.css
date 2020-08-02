@@ -135,11 +135,6 @@ body {
 /***Jumbotron***/
 .jumbotron {
   background-color: white;
-}
-
-/***Navbar***/
-.navbar {
-  background-color: white;
-  text-decoration: none;
-  text-transform: uppercase;
+  border-bottom: darkblue solid 3px;
+  padding: 5px 10px;
 }
