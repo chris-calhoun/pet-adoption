@@ -131,3 +131,10 @@ body {
   position: relative;
   top: 1px;
 }
+
+/***Jumbotron***/
+.jumbotron {
+  background-color: white;
+  border-bottom: darkblue solid 3px;
+  padding: 5px 10px;
+}
