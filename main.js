@@ -10,6 +10,30 @@ const pets = [
     typeOfPet: 'cat',
   },
   {
+    image:
+      'https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    name: 'Murphy',
+    color: 'light orange',
+    specialSkill: 'Hiking',
+    typeOfPet: 'dog',
+  },
+  {
+    image:
+      'https://i.pinimg.com/736x/ba/3c/40/ba3c40adc6258ae61a62ec455cf6dbd4.jpg',
+    name: 'Earl',
+    color: 'tan and black',
+    specialSkill: 'protection',
+    typeOfPet: 'dog',
+  },
+  {
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDc9_9cfKkYVjzVIe-RLYcpK72Wib0aF7LNWPjO6DKwRLE--zoX2D3PDphmEwRLwfilI0UPoNlXrGYaVPGW040Di3q0KDJ24jexg&usqp=CAU&ec=45702845',
+    name: 'Jessie',
+    color: 'grey',
+    specialSkill: 'scratching',
+    typeOfPet: 'cat',
+  },
+  {
     image: 'https://pixy.org/download/4663301/',
     name: 'Kitters',
     color: 'spotted',
@@ -23,14 +47,6 @@ const pets = [
     color: 'green',
     specialSkill: 'chomping',
     typeOfPet: 'dino',
-  },
-  {
-    image:
-      'https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/s960x960/93366679_10221584510259882_1653151457899184128_o.jpg?_nc_cat=102&_nc_sid=110474&_nc_ohc=Uvlk5CYAhrwAX-3RMpY&_nc_ht=scontent-atl3-1.xx&_nc_tp=7&oh=2a5eabade88f74514544ac279ca9f77c&oe=5F3F984C',
-    name: 'Souffle',
-    color: 'brown',
-    specialSkill: 'spin',
-    typeOfPet: 'dog',
   },
   {
     image:
