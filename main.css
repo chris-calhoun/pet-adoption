@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-body {
-  background-color: lightblue;
-}
-
 .pets {
   display: flex;
   flex-flow: wrap;
@@ -18,7 +14,8 @@ body {
   margin: 2em;
   text-align: center;
   background-color: white;
-  padding: 5px;
+  padding: 10px;
+  border: 0.5px solid lightgrey;
   border-radius: 3px;
 }
 
@@ -29,6 +26,7 @@ body {
 .pet img {
   width: 250px;
   height: 250px;
+  border-radius: 10px;
 }
 
 .pet-name {
@@ -42,7 +40,7 @@ body {
 /*cat-button*/
 .catButton {
   box-shadow: inset 0px 1px 0px 0px #cf866c;
-  background-color: red;
+  background-color: #e6af2e;
   border-radius: 3px;
   border: 1px solid white;
   display: inline-block;
@@ -53,9 +51,7 @@ body {
   padding: 6px 24px;
   text-decoration: none;
 }
-.catButton:hover {
-  background-color: darkred;
-}
+
 .catButton:active {
   position: relative;
   top: 1px;
@@ -64,7 +60,7 @@ body {
 /*dog-button*/
 .dogButton {
   box-shadow: inset 0px 1px 0px 0px #cf866c;
-  background-color: blue;
+  background-color: #6b0504;
   border-radius: 3px;
   border: 1px solid white;
   display: inline-block;
@@ -75,9 +71,7 @@ body {
   padding: 6px 24px;
   text-decoration: none;
 }
-.dogButton:hover {
-  background-color: darkblue;
-}
+
 .dogButton:active {
   position: relative;
   top: 1px;
@@ -87,12 +81,12 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  margin: 50px;
+  margin: 15px 30px;
 }
 
 /*dino-button*/
 .dinoButton {
-  background-color: orange;
+  background-color: #a3320b;
   border-radius: 3px;
   border: 1px solid white;
   display: inline-block;
@@ -103,9 +97,7 @@ body {
   padding: 6px 24px;
   text-decoration: none;
 }
-.dinoButton:hover {
-  background-color: darkorange;
-}
+
 .dinoButton:active {
   position: relative;
   top: 1px;
@@ -124,17 +116,10 @@ body {
   padding: 6px 24px;
   text-decoration: none;
 }
-.allButton:hover {
-  background-color: darkgray;
-}
+
 .allButton:active {
   position: relative;
   top: 1px;
-}
-
-/***Jumbotron***/
-.jumbotron {
-  background-color: white;
 }
 
 /***Navbar***/

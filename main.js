@@ -10,6 +10,30 @@ const pets = [
     typeOfPet: 'cat',
   },
   {
+    image:
+      'https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    name: 'Murphy',
+    color: 'light orange',
+    specialSkill: 'Hiking',
+    typeOfPet: 'dog',
+  },
+  {
+    image:
+      'https://i.pinimg.com/736x/ba/3c/40/ba3c40adc6258ae61a62ec455cf6dbd4.jpg',
+    name: 'Earl',
+    color: 'tan and black',
+    specialSkill: 'protection',
+    typeOfPet: 'dog',
+  },
+  {
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDc9_9cfKkYVjzVIe-RLYcpK72Wib0aF7LNWPjO6DKwRLE--zoX2D3PDphmEwRLwfilI0UPoNlXrGYaVPGW040Di3q0KDJ24jexg&usqp=CAU&ec=45702845',
+    name: 'Jessie',
+    color: 'grey',
+    specialSkill: 'scratching',
+    typeOfPet: 'cat',
+  },
+  {
     image: 'https://pixy.org/download/4663301/',
     name: 'Kitters',
     color: 'spotted',
