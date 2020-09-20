@@ -51,4 +51,5 @@ dinoButton.addEventListener('click', function (event) {
 
 ## Deployed Site
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/622ad8e1-2dec-4557-8362-c4bf18ddf401/deploy-status)](https://app.netlify.com/sites/pet-adoption-cc/deploys)
 
